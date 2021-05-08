@@ -448,7 +448,7 @@ img{
 }
 /* ///////////////////////// */
 [class*=".fa fa-"] {
-  color: #fff;
+  color: white;
   
   font-family: Francois One;
   display: inline-block;
