@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 75vh;
+    background-image: url(../img/B1.jpg);
+    background-attachment:fixed ;
+    /* background-image: url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0px); 
+    animation: bounce2 1s;
+}
+@keyframes bounce2 {
+    from { transform: translateX(-500px); }
+    to { transform: translateX(0vw); }
+}
+
+.hero h1 {
+    color: white;
+    font-family: Verdana, sans-serif;
+    
+    
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.left-side-1 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+/* ////////////////////////////////// */
+
+section {
+    margin-bottom: 20px;
+}
+/* margins / paddings */
+    .mb-5 {margin-bottom: 5px;}
+    .mb-10 { margin-bottom: 10px;}
+
+
+/* grid layout */
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+.row.flex-start{
+    justify-content: flex-start;
+}
+.btn-light {
+    border-radius: 25px;
+}
+.btn-dark-1 {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.col-1 {
+    width: 100%;
+}
+.col-2 {
+    width: 49%;
+}
+.flex-start .col:not(:last-child) {
+    margin-right: 20px;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+.btn-dark {
+    background-color: white;
+    color: black;
+}
+.btn-dark-1:hover {
+    background-color: white;
+    color: black;
+}
+.btn-light:hover {
+    background-color: black;
+    color: white;
+}
+.btn-light-parfume-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-volunteer {
+    padding-top: 20px;
+}
+
+/* form fields rules */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label:not(input+label) {
+    display: block;
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+.submit {
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: 105px;
+    height: 30px;
+
+}
+.right-side2 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-dark {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 30px;
+    width: 105px;  
+}
+[class^="btn btn-light-parfume-1"] {
+    right: 40%;
+    bottom: 32%;
+}
+[class^="btn btn-light-parfume-2"] {
+    margin-left: 120px;
+    bottom: 32%;
+    position: absolute;
+}
+[class^="btn btn-light-parfume-3"] {
+  margin-left: 170px;
+  bottom: 25%;
+  position: absolute;
+}
+[class^="btn btn-light-parfume-4"] {
+  margin-left: 170px;
+  bottom: 21.5%;
+  position: absolute;
+}
+
+[class^="btn btn-light-parfume"] {
+    position: absolute;
+    background-color: rgb(211, 205, 198, 0.7);
+    border-radius: 25px;
+    
+}
+.btn-primary {
+    height: 40px;
+}
+.form-control {
+    height: 30px;
+    font-size: 14px;
+}
+.video-container {
+    margin-bottom: 0px;
+    width: 636px ;
+    height: 408px;
+}
+.card-1 {
+    margin: 0px 0px;
+    position: relative;
+}
+
+.card-img-overlay {
+    font-family: serif;
+    text-align: center;
+}
+.card {
+    margin: 20px 0px ;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+   
+}
+.moduleTitle {
+    
+    width: 100%;
+    margin: 0px 0px 20px; 
+    padding: 0px;
+    text-align: center;
+   
+}
+.moduleTitle::before {
+    display: inline-block;
+    margin: 0 20px 10px 0;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 400px;
+}
+.moduleTitle::after {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 400px;
+}
+.moto {
+    align-content: center;
+    color: white; 
+    position: absolute;
+    font-family: serif;
+    letter-spacing: 10px;
+    left:35%;
+    bottom:40%
+}
+.events {
+    font-family: fantasy;
+    margin-top: 15px;
+    color: rgb(49, 80, 80);
+}
+#events-styling {
+    background-color: thistle; 
+    margin-top: 20px;
+}
+.btn-secondary {
+    display: inline-flex;
+    border-radius: 25px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+
+.more:link, .more:visited {
+  transition-duration: 0.2s;    
+  transition-timing-function: ease-out;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.show{
+  overflow: hidden;
+  position: relative;
+  cursor:pointer;
+}
+
+.aspect{
+  position: relative;
+  padding-bottom: 120%;
+  height: 0;
+  overflow: hidden;
+}
+
+.show .mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+/* FIRST */
+.show-first a.more {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px; 
+  background: #FFF;
+  color: #222;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+
+}
+
+.show-first a.more:hover {
+  box-shadow: 0 0 5px #000;
+}
+
+.show-first p{
+  letter-spacing: 0.15em;
+  color: #f4f4f4;
+  font-size: 28px; 
+}
+
+.show-first img {
+  transition: all 0.2s linear;
+}
+
+.show-first .mask {
+  opacity: 0;
+  background-color: rgba(0,0,0, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+.show-first h2 {
+  color: #f2f2f2;
+  margin-top: 10%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background: rgba(0,0,0,0.7);
+}
+.show-first p {
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.show-first a.info{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.show-first:hover img {
+  transform: scale(1.2);
+}
+.show-first:hover .mask {
+  opacity: 1;
+}
+.show-first:hover h2,
+.show-first:hover p,
+.show-first:hover a.info {
+  opacity: 1;
+}
+.show-first:hover p {
+  transition-delay: 0.1s;
+}
+.show-first:hover a.info {
+  transition-delay: 0.2s;
+}
+
+/* FOURTH */
+
+.show-fourth a.more {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px; 
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+}
+
+.show-fourth a.more:hover {
+  box-shadow: 0 0 5px #fff;
+  background-color: #222;
+}
+
+.show-fourth p{
+  font-size: 28px; 
+}
+
+.show-fourth .mask {
+  opacity: 0;
+    background-image: url(https://subtlepatterns.com/patterns/gplaypattern.png);
+  background-color: rgba(255,255,255, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+.show-fourth h2 {
+  color: #000;
+  margin-top: 10%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.show-fourth p {
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.show-fourth a.info{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.show-fourth img{
+  transition: all 0.2s ease-in-out;
+}
+
+.show-fourth:hover img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+  transform: scale(1.5);
+}
+
+.show-fourth:hover .mask {
+  opacity: 1;
+  
+}
+.show-fourth:hover h2,
+.show-fourth:hover p,
+.show-fourth:hover a.info {
+  opacity: 1;
+}
+.show-fourth:hover p {
+  transition-delay: 0.1s;
+}
+.show-fourth:hover a.info {
+  transition-delay: 0.2s;
+}
+
+@media only screen and (max-width: 767px) { 
+  
+  .col-1-4{
+    width: 50%; 
+    padding: 10px;
+    overflow: hidden;
+    clear: right;
+  }
+  .wrap{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;}
+  
+  .mobile-clear{
+    clear:both;}
+
+}
+/* ///////////////////////// */
