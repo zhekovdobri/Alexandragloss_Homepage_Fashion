@@ -516,15 +516,6 @@ h4 {
   font-size: 14px;
   color: #979292;
 }
-/* #stars {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background: url(./assets/img/Fire_Smoke.gif); 
-  background-repeat: no-repeat; 
-  height: 488px; 
-  width: 100%;
-} */
 .list {
   display: flex;
   align-items: center;
