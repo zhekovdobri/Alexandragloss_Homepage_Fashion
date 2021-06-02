@@ -23,7 +23,7 @@
 }
 
 .hero h1 {
-    color: #fff;
+    color: white;
     font-family: Verdana, sans-serif;
     
     
@@ -121,7 +121,7 @@ section {
 }
 
 #textarea {
-    min-height: 150px;
+    min-height: 100px;
     resize: vertical;
 }
 .submit {
@@ -148,6 +148,7 @@ section {
 [class^="btn btn-light-parfume-1"] {
     right: 40%;
     bottom: 32%;
+    position: absolute;
 }
 [class^="btn btn-light-parfume-2"] {
     margin-left: 120px;
@@ -191,6 +192,15 @@ section {
 .card-img-overlay {
     font-family: serif;
     text-align: center;
+    
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 .card {
     margin: 20px 0px ;
@@ -219,7 +229,7 @@ section {
 }
 .moduleTitle::after {
     display: inline-block;
-    margin: 0 20px 10px 20px;
+    margin: 0 0px 10px 20px;
     height: 1px;
     content: " ";
     text-shadow: none;
@@ -242,7 +252,9 @@ section {
 }
 #events-styling {
     background-color: thistle; 
+    
     margin-top: 20px;
+    
 }
 .btn-secondary {
     display: inline-flex;
@@ -448,7 +460,7 @@ img{
 }
 /* ///////////////////////// */
 [class*=".fa fa-"] {
-  color: #fff;
+  color: white;
   
   font-family: Francois One;
   display: inline-block;
@@ -467,6 +479,7 @@ h4 {
   margin-bottom: 20px;
   margin-top: 50px;
   font-family: fantasy;
+  font-size: 20px;
 }
 .ul-footer {
   border-left: solid 1px;
@@ -474,8 +487,10 @@ h4 {
 }
 #footer {
   display: flex; 
-  justify-content: space-around; 
-  flex-direction: row;  width:100%; 
+  align-items: center;
+  justify-content: space-evenly; 
+  flex-direction: column;
+  width:100%; 
   height: 488px; 
   background-color: #2f3742; 
   left:0px; 
@@ -483,7 +498,7 @@ h4 {
   color: #fff;
 }
 #address-footer {
-  color: #fff;
+  color: white;
   position: relative;
   margin-top: 320px;
 }
@@ -498,7 +513,36 @@ h4 {
 }
 .footer-header-3 {
   font-family: Arial;
-  font-size: 16px;
-  color: #818080;
+  font-size: 14px;
+  color: #979292;
+}
+/* #stars {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background: url(./assets/img/Fire_Smoke.gif); 
+  background-repeat: no-repeat; 
+  height: 488px; 
+  width: 100%;
+} */
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+.footer_address {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.footer_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
 }
 
