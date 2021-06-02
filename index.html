@@ -11,6 +11,9 @@
 
     <!-- custom styling -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- media-query -->
+    <link rel="stylesheet" href="./assets/css/media-query.css">
     
     <!-- bootstrap script -->
     <script src="./assets/libs/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
@@ -21,7 +24,7 @@
 <body>
     <div class="container" style="height: 100vh; ">
         <div class="row">
-            <div class="col -sm-12 hero">
+            <div class="col-sm-12 hero">
                 <h1 style="letter-spacing: 10px; font-size: 30px; bottom: 1%;">ALEXANDRAGLOSS</h1>
             </div>
         </div>
@@ -273,6 +276,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">J'adore</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                             </div>
 
 
@@ -299,11 +303,12 @@
                                 </div>
                             </div>
 
-                            <div class="btn btn-light-parfume-1">Visit</div>
+                            <div class="btn btn-light-parfume-1" id="visit_1">Visit</div>
 
                             <div class="card-body">
                                 <h5 class="card-title">Dior Homme</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                             </div>
 
                             <!-- <img src="./assets/img/Parfume2.webp" class="card-img-top" alt="...">
@@ -329,11 +334,12 @@
                                 </div>
                             </div>
 
-                            <div class="btn btn-light-parfume-2">Visit</div>
+                            <div class="btn btn-light-parfume-2" id="visit_2">Visit</div>
 
                             <div class="card-body">
                                 <h5 class="card-title">SAUVAGE After-shave lotion</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                             </div>
 
                             <!-- <img src="./assets/img/Parfume3.webp" class="card-img-top" alt="...">
@@ -364,6 +370,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">J'adore</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                             </div>
 
                             <!-- <img src="./assets/img/Parfume5.webp" class="card-img-top" alt="...">
@@ -401,13 +408,13 @@
 
 
         
-                <div class="col-md-12 text-center" style=" width:100%; height: 488px; background-color: #000; left:0px; position: absolute;">
-                    <div class="moto">
+                <div class="col-md-12 text-center" style="display: flex; align-items: center; justify-content: center; width:100%; height: 488px; background-color: #000; left:0px; position: absolute;">
+                    <div class="moto" style="display: flex; flex-direction: column;">
                         <h1>ALEXANDRAGLOSS<h1><br><br>
                         <p style="font-size: x-large; margin-left: 20px;">PROFESSIONAL WEB DESIGN</p>
                     </div>
                     <div>
-                        <canvas id="stars" style="background: url(./assets/img/Fire_Smoke.gif); background-repeat: no-repeat; height: 488px; width: 100%;">
+                        <canvas id="stars" style=" display: flex; align-items: center; justify-content: center; background: url(./assets/img/Fire_Smoke.gif); background-repeat: no-repeat; height: 488px; width: 100%;">
                             <img src="./assets/img/Fire_Smoke.gif" alt="fire" height="488px">
                             
                         </canvas>
@@ -430,7 +437,7 @@
                 <div class="col-md-6" style="padding: 0;">
                     <div class="card bg-dark text-white" style="margin: 20px 0 0;">
                         <img src="./assets/img/Card1.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay"> 
+                        <div class="card-img-overlay overlay"> 
                             <button type="button" class="btn btn-dark-1" style="opacity: 0.6; margin-top: 200px;">Doscover</button>
                             <h3 class="card-title">Airport Style, We’ve Missed You</h3>
                             <h5 class="card-text">Once upon a time, air travel was a glamorous affair. Men wore suits, women wore heels, and you could enjoy a nice lobster tail at 30,000 feet.</h5>
@@ -438,12 +445,12 @@
                     </div>
                 </div>
                 <div class="col-md-6" style="padding: 0;">
-                    <div class="card bg-dark text-white" style="margin: 20px 0 0;">
+                    <div class="card bg-dark text-white" style="margin: 20px 0 0; display:flex; align-items: center; justify-content: space-evenly;">
                         <img src="./assets/img/Card2.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay overlay">
                             <button type="button" class="btn btn-dark-1" style="opacity: 0.6; margin-top: 200px;">Doscover</button>
-                            <h3 class="card-title">Hunter Abrams Photographs</h3>
-                            <h5 class="card-text">You could say the Michael Kors 40th anniversary show, filmed on a lit-up avenue of Broadway theaters, was a capital-M Moment.</h5>
+                            <h3 class="card-title"><span class="dobri">Abrams Photographs</span></h3>
+                            <h5 class="card-text overlay_h5">You could say the Michael Kors 40th anniversary show, filmed on a lit-up avenue of Broadway theaters, was a capital-M Moment.</h5>
                         </div>
                     </div>
                 </div>
@@ -455,7 +462,7 @@
                 <div class="col-md-6" style="padding: 0;">
                     <div class="card bg-dark text-white" style="margin: 0;">
                         <img src="./assets/img/Card3.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay overlay">
                             <button type="button" class="btn btn-dark-1" style="opacity: 0.6; margin-top: 200px;">Doscover</button>
                             <h3 class="card-title">Shanghai Fashion Week Fall 2021</h3>
                             <h5 class="card-text">Without physical fashion weeks in New York and Europe, much of our street style coverage in 2021 has focused on locals, off-duty models,..</h5>
@@ -465,7 +472,7 @@
                 <div class="col-md-6" style="padding: 0;">
                     <div class="card bg-dark text-white" style="margin: 0;">
                         <img src="./assets/img/Card4.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay overlay">
                             <button type="button" class="btn btn-dark-1" style="opacity: 0.6; margin-top: 200px;">Doscover</button>
                             <h3 class="card-title">Pant With a Bit More Flare</h3>
                             <h5 class="card-text">One might think of flared pants as a special-occasion pant—a trouser to be worn, perhaps only with heels, when a jean feels too casual.</h5>
@@ -582,11 +589,11 @@
                     </div>
 
 
-                    <div class="card text-center md-6">
+                    <div class="card text-center md-6" style="display: flex; justify-content: center; align-items: center;">
                         <div class="card-body">
                         <img src="./assets/img/P2.png" alt="">
                         </div>
-                        <a href="#" class="btn btn-dark" style="justify-content: center; margin:0 250px 5px;">Visit</a> 
+                        <a href="#" class="btn btn-dark" style="display: flex; justify-content: center; align-items: center; margin-bottom: 25px;">Visit</a> 
                     </div>
 
                     <!--   Bootstrap_card  -->
@@ -595,7 +602,7 @@
                             <div class="col-sm-6">
                                 <div class="card">
                                     <div class="card-body" style="border-style:none ; background-color:#d8bfd8">
-                                        <h5 class="card-title" style="font-weight: 900; font-family:fantasy; font-weight:lighter;">Black Friday - 50% OFF<img style="right:0.1px; position: absolute; width:60px;" src="./assets/img/IPhone-removebg-preview.png" alt="HM_shop"></h5>
+                                        <h5 class="card-title" style="font-weight: 900; font-family:fantasy; font-weight:lighter;">Black Friday - 50% OFF<img class="iphone" style="right:0.1px; position: absolute; width:60px;" src="./assets/img/IPhone-removebg-preview.png" alt="HM_shop"></h5>
                                         <p class="card-text"></p>
                                         <a href="#" class="btn btn-warning " style="height: 35px; display: flex; align-items: center; width: 130px;">Shop<strong style="color: red; font-size: 22px;">Expert</strong></a>
                                     </div>
@@ -624,7 +631,7 @@
                 <div class="contact-form" id="events-styling">
             
                 <!-- row 1 -->
-                    <div class="row" style="height: 900px;">
+                    <div class="row" style="height: px;">
                         <div class="form-group">
                             <h5 class="events">APPLY for Paris 4 days E-casting</h5>
                             <div class="col-sm-6">
@@ -702,7 +709,7 @@
                         <div class="col-sm-3">
                             <!-- div.form-group>(label+(select>option*3)) -->
                             <div class="form-group">
-                                <label for="">First day</label>
+                                <label for="">First</label>
                                 <select name="" id="" class="form-control">
                                     <option value="">Preference 1</option>
                                     <option value="">Preference 2</option>
@@ -714,7 +721,7 @@
                         <div class="col-sm-3">
                             <!-- div.form-group>(label+(select>option*3)) -->
                             <div class="form-group">
-                                <label for="">Second day</label>
+                                <label for="">Second</label>
                                 <select name="" id="" class="form-control">
                                     <option value="">Preference 1</option>
                                     <option value="">Preference 2</option>
@@ -726,7 +733,7 @@
                         <div class="col-sm-3">
                             <!-- div.form-group>(label+(select>option*3)) -->
                             <div class="form-group">
-                                <label for="">Third day</label>
+                                <label for="">Third</label>
                                 <select name="" id="" class="form-control">
                                     <option value="">Preference 1</option>
                                     <option value="">Preference 2</option>
@@ -804,8 +811,46 @@
                                             <label for="">Special requirements</label>
                                             <textarea name="" id="textarea" class="form-control"></textarea>
                                         </div>
+
+                                        <span>I agree</span>
+                                        
+                                        <div class="form-group">
+                                            
+                                            <input type="radio" name="conference" id="conference_yes">
+                                            <label for="conference_yes">Yes</label>
+                                        
+                                            <input type="radio" name="conference" id="conference_no">
+                                            <label for="conference_no">No</label>
+                                            
+                                            <input class="submit" id="dark_submit" type="button" value="Submit">
+                                            
+                                        </div>
                                     </div>
                                 </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 right-side">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body" style="border-style:none ; background-color:#f8f6f8">
+                                        <h5 class="card-title" style="font-family:fantasy;">IMPOSSIBLE IS NOTHING</h5>
+                                        <a href="#" class="btn btn-warning" style="color: rgb(0, 110, 255); font-size: 12px; height: 40px; width: 180`px;"><strong>JOIN US</strong></a>
+                                        <img style="width:150px;" src="./assets/img/adidas_2.png" alt="adidas">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body" style="background-color: rgb(197, 217, 226);">
+                                        <h5 class="card-title" style="font-family: Arial, Helvetica, sans-serif;">NYHET! SHOP ONLINE</h5>
+                                        
+                                        <p class="card-text"><strong style="color: purple;"><img src="./assets/img/Cubus-removebg-preview.png" alt="HM_shop"></strong>
+                                        <a href="#" class="btn btn-primary" style="border-radius: 0px; background-color:rgb(21, 8, 77); border-style: none;">velkommen</a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -813,33 +858,33 @@
                     <!-- row 9 -->
                     <!-- div.row>div.col-1>p+(div.form-group*2>(input:radio+label)) -->
                     <div class="row">
-                        <div class="col-3">
+                        <!-- <div class="col-3">
                             <p class="mb_10">I agree</p>
                             <div class="form-group">
                                 <input type="radio" name="conference" id="conference_yes">
                                 <label for="conference_yes">Yes</label>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="col-3">
+                        <!-- <div class="col-3">
                             <span><div class="submit"><input class="submit" type="button" value="Submit"></div></span>
-                        </div>
+                        </div> -->
                         
 
-                        <div class="col-3">
-                            <span><img src="./assets/img/Adidas-removebg-preview.png" alt=""></span>
+                        <!-- <div class="col-3">
+                            <span><img src="./assets/img/Adidas-removebg-preview.png" alt="" ></span>
                         </div>
 
                         <div class="col-3">
                             <span><img src="./assets/img/Cubus-removebg-preview.png" alt=""></span>
-                        </div>
+                        </div> -->
 
                         
 
-                            <div>
+                            <!-- <div>
                                 <input type="radio" name="conference" id="conference_no">
                                 <label for="conference_no">No</label>
-                            </div>
+                            </div> -->
                         </div>
 
 
@@ -1047,10 +1092,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-3">Visit</div>
+                        <div class="btn btn-light-parfume-3" id="visit_3">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">Miss Dior</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
 
@@ -1074,10 +1120,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-3">Visit</div>
+                        <div class="btn btn-light-parfume-3" id="visit_3">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">JOY</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
                         <!-- <img src="./assets/img/Parfume10.png" class="card-img-top" alt="...">
@@ -1100,10 +1147,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-3">Visit</div>
+                        <div class="btn btn-light-parfume-3" id="visit_3">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">Poison</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
                         <!-- <img src="./assets/img/Parfume6.png" class="card-img-top" alt="...">
@@ -1127,10 +1175,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-4">Visit</div>
+                        <div class="btn btn-light-parfume-4" id="visit_4">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">Diorissimo-EAU De Toilette</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
                         <!-- <img src="./assets/img/Parfume5.webp" class="card-img-top" alt="...">
@@ -1157,10 +1206,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-4">Visit</div>
+                        <div class="btn btn-light-parfume-4" id="visit_4">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">Miss Dior</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
                         <!-- <img src="./assets/img/Parfume3.webp" class="card-img-top" alt="...">
@@ -1187,10 +1237,11 @@
                                 <a href="#" class="more">More info</a>
                             </div>
                         </div>
-                        <div class="btn btn-light-parfume-4">Visit</div>
+                        <div class="btn btn-light-parfume-4" id="visit_4">Visit</div>
                         <div class="card-body">
                             <h5 class="card-title">DUNE-EAU De Toilette</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <p class="parfume_text"><a href="#" style="font-weight: 700; color: rgb(10, 79, 82);">Visit</a></p>
                         </div>
 
                         <!-- <img src="./assets/img/Parfume5.webp" class="card-img-top" alt="...">
@@ -1228,92 +1279,95 @@
             
             <div class="col-md-12" id="footer";>
 
-                <nav class="list">
-                    <h4>Explore our ALX</h4>
-                    <ul class="ul-footer">
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
-                    </ul>
-                </nav>
-            
+                <div class="footer_menu">
+
+                    <nav class="list">
+                        <h4>Explore our ALX</h4>
+                        <ul class="ul-footer">
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
+                        </ul>
+                    </nav>
                 
-                <nav class="list">
-                    <h4>More Information</h4>
-                    <ul class="ul-footer">
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
-                    </ul>
-                </nav>
-            
+                    <nav class="list">
+                        <h4>More Information</h4>
+                        <ul class="ul-footer">
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
+                        </ul>
+                    </nav>
                 
-                <nav class="list">
-                    <h4>Explor related Sites</h4>
-                    <ul class="ul-footer">
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
-                    </ul>
-                </nav>
-    
-                
-                <nav class="list">
-                    <h4>Legal agreement</h4>
-                    <ul class="ul-footer">
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
-                        <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
-                    </ul>
-                </nav>
+                    <nav class="list">
+                        <h4>Explor related Sites</h4>
+                        <ul class="ul-footer">
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
+                        </ul>
+                    </nav>
         
-                
-                <nav class="list" style=" display: inline-block;">
-                    <h4>Connect with</h4>
-                    <ul class="ul-footer" style="display: flex; flex-direction: column;">
-                        <a href="#"><i class="fa fa-facebook-f fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-                    </ul>
-                </nav>
+                    <nav class="list">
+                        <h4>Legal agreement</h4>
+                        <ul class="ul-footer">
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello World World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello World</a></li>
+                            <li class="li-footer"><a class="a-footer" href="#">Hello Hello </a></li>
+                        </ul>
+                    </nav>
+            
+                    
+                    <nav class="list fa-icon">
+                        <h4>Connect with</h4>
+                        <ul class="ul-footer" style="display: flex; flex-direction: column;">
+                            <a href="#"><i class="fa fa-facebook-f fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer_address">
+                    <div class="col-sm-12 text-center" style="color:white;">
+                        <div class="footer-header-1">
+                            <h2>ALEXANDRAGLOSS</h2>
+                        </div>
+                        <div class="footer-header-2">         
+                            <p>©<span>2021</span> ALEXANDRAGLOSS &amp; Co. All rights reserved.</p><br>
+                        </div>
+                        <div class="footer-header-3"> 
+                            <p>Address: Lyhaugen 6, 5209 Os, Norway/ +47 95235507 / zhekovdobri@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-12 text-center" id="address-footer";>
-                <div class="footer-header-1">
-                    <h2>ALEXANDRAGLOSS</h2>
-                </div>
-                <div class="footer-header-2">         
-                    <p>©<span>2021</span> ALEXANDRAGLOSS &amp; Co. All rights reserved.</p><br>
-                </div>
-                <div class="footer-header-3"> 
-                    <p>Address: Lyhaugen 6, 5209 Os, Norway/ +47 95235507 / zhekovdobri@gmail.com</p>
-                </div>
-            </div>
-        </div>
+        
 
         <!--/////////////////////////////////////////////////////////////////////////////////////////// -->
     <script src="./assets/js/js.js"></script>
