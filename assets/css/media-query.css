@@ -30,6 +30,9 @@
         width: 85%;
         height: 97%;  
     }
+    #m_top {
+        margin-top: 0px!important;
+    }
     /* btn-light-parfume */
     .btn-light-parfume-1 {
         right: 38%;
@@ -73,8 +76,18 @@
         background-position:top ;
     }
     iframe {
-        width: 70%;
-        height: 81%;  
+        width: 444px;
+        height: 332px;  
+    }
+    .video-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #m_top {
+        margin-top: 0px!important;
     }
     
     /* btn-light-parfume */
@@ -129,8 +142,18 @@
         background-position: top;
     }
     iframe {
-        width: 52%;
-        height: 59%;  
+        width: 324px;
+        height: 242px;  
+    }
+    .video-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #m_top {
+        margin-top: 0px!important;
     }
 
     /* btn-light-parfume */
@@ -211,7 +234,10 @@
     }
     iframe {
         width: 100%;
-        height: 59%;  
+        height: 368px;  
+    }
+    #m_top {
+        margin-top: 0px!important;
     }
 
     /* btn-light-parfume */
@@ -304,10 +330,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
     iframe {
-        width: 350px;
-        height: 59%;  
+        width: 370px;
+        height: 270px;  
     }
     #footer {
         height: 750px;
@@ -341,17 +368,28 @@
         margin-bottom: 30px;
     }
 }
-
+@media only screen and (max-width: 500px) {
+    .video-container {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe {
+        width: 320px;
+        height: 220px;  
+    }
+}
 @media only screen and (max-width: 470px) {
     .video-container {
-        width: 350px;
+        width: 380px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     iframe {
         width: 300px;
-        height: 59%;  
+        height: 200px;  
     }
     /* btn-light-parfume */
     [class^="btn btn-light-parfume-1"] {
@@ -397,6 +435,16 @@
     .overlay {
         bottom: 50%;
     }
+    .video-container {
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe {
+        width: 280px;
+        height: 180px;  
+    }
 }
 @media only screen and (max-width: 390px) {
     .moduleTitle::before {
@@ -411,6 +459,16 @@
     .navbar-brand {
         font-size: 16px;
     }
+    .video-container {
+        width: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe {
+        width: 260px;
+        height: 160px;  
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -420,14 +478,17 @@
         justify-content: center;
         align-items: center;
         margin:auto;
-        
+        height: 280px;
+    }
+    #m_top {
+        margin-top: 0px!important;
     }
     iframe {
         width: 261px;
         height: 59%; 
         display: flex; 
         align-items: center;
-        justify-content: center;  
+        justify-content: center;
     }
     h1 {
         font-size: 14px;
@@ -466,6 +527,24 @@
     }
     .overlay {
         bottom: 200px;
+    }
+    .video-container {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        height: 280px;
+    }
+    #m_top {
+        margin-top: 0px!important;
+    }
+    iframe {
+        width: 200px;
+        height: 59%; 
+        display: flex; 
+        align-items: center;
+        justify-content: center;
     }
 }
 
