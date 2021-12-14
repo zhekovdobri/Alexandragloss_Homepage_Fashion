@@ -1,8 +1,8 @@
 # Homepage_Fashion
 
-#### By _**{Dobri Zhekov}**_
+#### By: Dobri Zhekov
 
-#### _{A simple JavaScript, HTML5 and CSS3 homepage design interface showcase}_
+#### A simple JavaScript, HTML5 and CSS3 homepage design interface showcase
 
 ## Technologies Used
 
@@ -11,7 +11,12 @@
 * _CSS_
 * _Bootstrap_
 <br />
-<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png" \> <br />
+<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png"> 
+
+\
+&nbsp;
+\
+&nbsp;
 
 ## Description
 
