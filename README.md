@@ -1,3 +1,5 @@
+<img align="left" alt="chart" width="1200px" src="https://github.com/zhekovdobri/zhekovdobri/blob/29397da5ffa867fded395f18c20fda60a0f34236/BootstrapFashion_Project_preview_1200px.gif">
+
 # Homepage_Fashion
 
 #### By: Dobri Zhekov
@@ -11,7 +13,9 @@
 * _CSS_
 * _Bootstrap_
 <br />
-<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png"><br>
+<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png">
+
+####
 
 ## Description
 
