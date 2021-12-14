@@ -11,17 +11,17 @@
 * _CSS_
 * _Bootstrap_
 <br />
-<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png"> 
+<img align="left" alt="chart" width="334px" src="https://github.com/zhekovdobri/Homepage_Fashion/blob/f9cc36b877a7f148c4cbfe122778c1636aedc03e/Alexandragloss_Fashion_laguages_chart.png"><br>
 
 ---
 
 ## Description
 
-_{The homepage is the page that often gets the most attention from design teams and customer side. It creates the first impression and gets the most views. A lot of time and effort is spent on perfecting both its visual design and content — much more than for any other page on the website. Alexandragloss fashion homepage is a part of Alexandragloss Brand which I created in the early of 2016. It has a modern and astonishing view. The homepage goal is to increase user traffic to the web pages that enable them to buy the product. My goal as а webdeveloper and designer is to "paint" this homepage so as to make all this possible.
+The homepage is the page that often gets the most attention from design teams and customer side. It creates the first impression and gets the most views. A lot of time and effort is spent on perfecting both its visual design and content — much more than for any other page on the website. Alexandragloss fashion homepage is a part of Alexandragloss Brand which I created in the early of 2016. It has a modern and astonishing view. The homepage goal is to increase user traffic to the web pages that enable them to buy the product. My goal as а webdeveloper and designer is to "paint" this homepage so as to make all this possible.
 
 
 
-which main goal is to   allows detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+which main goal is to   allows detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.
 
 ## Setup/Installation Requirements
 
