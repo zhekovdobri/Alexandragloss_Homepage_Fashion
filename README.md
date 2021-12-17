@@ -36,11 +36,11 @@ which main goal is to   allows detailed description of your application. Give as
 3. From a terminal window, change to the local directory where you want to clone your repository.
 4. Paste the command you copied from Bitbucket, for example:
 
-* **Clone over HTTPS**
-  $ git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git
+* **Clone over HTTPS**<br>
+  $ git clone (https://..)
   
-* **Clone over SSH**
-  $ git clone ssh://git@bitbucket.org:teamsinspace/documentation-tests.git
+* **Clone over SSH**<br>
+  $ git clone (ssh://..)
 
 ## Known Bugs
 
@@ -48,6 +48,6 @@ which main goal is to   allows detailed description of your application. Give as
 
 ## License
 
-"Alexandragloss_Homepage_Fashion" project licensed under the GNU GPL 3 license.
+Alexandragloss_Homepage_Fashion project is licensed under the GNU GPL 3 license.
 
 Copyright(c)2016-2021 Dobri Zhekov
