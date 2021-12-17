@@ -31,10 +31,10 @@ NB!: Content some dummy "Lorem Ipsum" text.
 ## Setup/Installation Requirements
 
 ### Clone a repository using the command line 
-1. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
-2. Copy the clone command (either the SSH format or the HTTPS). If you are using the SSH protocol, ensure your public key is in Bitbucket and loaded on the local system to which    you are cloning.
-3. From a terminal window, change to the local directory where you want to clone your repository.
-4. Paste the command you copied from Bitbucket, for example:
+
+1. From the repository, click "Code" and copy the address (either the SSH format or the HTTPS). 
+2. From a terminal window (cmd or Bash), change to the local directory where you want to clone your repository.
+3. Paste the address you copied from GitHub, with one of the next comand:
 
 * **Clone over HTTPS**<br>
   $ git clone (https://..)
