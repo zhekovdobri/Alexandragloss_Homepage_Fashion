@@ -41,9 +41,9 @@ NB!: Content some dummy "Lorem Ipsum" text.
           |     |foote_css──style.css
           |     |jquery──jquery.js
           |     |js__
-          |          Orb.js
-          |          canvasVektor.js
-          |          js.js                      __js
+          |          |Orb.js
+          |          |canvasVektor.js
+          |          |js.js                      __js
           |                                    |
           |     |libs/bootstrap-5.0.0-beta3-dist──css                               
           ├── index.html                         
