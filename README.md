@@ -32,21 +32,20 @@ NB!: Content some dummy "Lorem Ipsum" text.
 
           |── readme.md    
           ├───assets
-          |     |   __style.css
-          |     |  |    
-          |     |css──media-query.css
-          │     |  
-          |     |img     __ footer.css  
-          |     |       |
-          |     |foote_css──style.css
-          |     |jquery──jquery.js
+          |     |      
+          |     |css──|media-query.css
+          |     |     |style.css
+          |     |img             
+          |     |foote_css──|style.css
+          |     |           |footer.css
+          |     |jquery──|jquery.js
           |     |js__
           |          |Orb.js
           |          |canvasVektor.js
-          |          |js.js                      __js
-          |                                    |
-          |     |libs/bootstrap-5.0.0-beta3-dist──css                               
-          ├── index.html                         
+          |          |js.js                    
+          |                                    
+          |     |libs/bootstrap-5.0.0-beta3-dist──|css                               
+          ├── index.html                          |js
           └── license
 
 ## Setup/Installation Requirements
